@@ -11,7 +11,6 @@ pd.DataFrame([{
 
 and obfuscates the pii data in the dataframe"""
 
-import pandas as pd
 
 def obfuscate_data(file_df, pii_fields):
     # itertate through pii columns
