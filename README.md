@@ -7,7 +7,7 @@ This project contains a general-purpose obfuscation tool (python function) to ce
 3. Data records will be supplied with a primary key.
 
 ## How it Works / How to Use
-1. The tool should be supplied with: the S3 location of the file containing sensitive information; and the names of the PII fields, in the form:
+1. The tool (the main file is gdpr_obfuscator.py) should be supplied with: the S3 location of the file containing sensitive information; and the names of the PII fields, in the form:
 ```json
 {
     "file_to_obfuscate": "s3://my_ingestion_bucket/new_data/file1.csv",
